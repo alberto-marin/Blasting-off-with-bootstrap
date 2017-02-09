@@ -1,28 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta charset="utf-8">
 		<title>Blasting off with Bootstrap</title>
+		<link rel="stylesheet" href="css/main.css" type="text/css">
 		<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 	</head>
 	<body>
 		<div class="container">
-			<h1>Blasting off with Bootstrap</h1>
-			<h2>The fastest way to space</h2>
-			<p>Make your way to space in the comfort of your own rocket, elevator or transporter.</p>
-
-			<button type="button">Take the Tour</button>
-			<button type="button">Book Tickets Now</button>
-		</div>
-		<div class="container-fluid">
-			<h3>Book today!</h3>
-			<p>Even if you're travelling tomorrow, you can still get tickets today. We have a number of conveniently located ports around the globe to service everyone.</p>
-
-			<h3>Go anywhere!</h3>
-			<p>If you need to get to space today, why not try out a transporter? Despite the claims, there have been no deaths in the last 6 weeks!</p>
-			<h3>RocketBus&reg;</h3>
-			<p>For cheapest fares, cath the next RocketBus&reg; to the stars. Cheaper on your wallet, and easiest way to make friends.</p>
-		</div>
 		
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Blasting off with Bootstrap</h1>
+			</div>
+			
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<h2>The fastest way to space</h2>
+					<p>Make your way to space in the comfort of your own rocket, elevator or transporter.</p>
+					<button type="button">Take the Tour</button>
+					<button type="button">Book Tickets Now</button>
+				</div>
+				<div class="col-md-6">
+					<img src="images/img-header.jpg" alt="Blasting off">
+				</div>
+			</div> <!-- /row -->
+		</div> <!-- /container -->
+		
+		<div class="row">
+			<div class="container-fluid">
+				<div class="col-md-4">
+					<h3>Book today!</h3>
+					<p>Even if you're travelling tomorrow, you can still get tickets today. We have a number of conveniently located ports around the globe to service everyone.</p>
+				</div>
+				<div class="col-md-4">
+					<h3>Go anywhere!</h3>
+					<p>If you need to get to space today, why not try out a transporter? Despite the claims, there have been no deaths in the last 6 weeks!</p>
+				</div>
+				<div class="col-md-4">
+					<h3>RocketBus&reg;</h3>
+					<p>For cheapest fares, cath the next RocketBus&reg; to the stars. Cheaper on your wallet, and easiest way to make friends.</p>
+				</div>
+			</div> <!-- /row -->
+		</div> <!-- /container-fluid -->
+		<!--
+		Empty columns (left side):
+		.container
+			.row
+				.col-md-8
+				.col-md-3.col-md-offset-1
+		-->
+		<div class='footer'>
+			<div class='container'>
+				<div class='row'>
+					<div class="col-md-3">
+          	<h4>Who We Are</h4>
+          	<p><i>Blasting Off With Bootstrap</i> is the fastest way to space. <a href='tickets.html'>Book your ticket today</a>!</p>
+          	<p><a href='about.html'>More About Us</a></p>
+          </div>
+					<div class="col-md-2 col-md-offset-1">
+          	<h4>Links</h4>
+						<ul>
+							<li><a href='/'>Home</a></li>
+							<li><a href='tickets.html'>Tickets</a></li>
+							<li><a href='stations.html'>Stations</a></li>
+						</ul>
+          </div>
+					<div class="col-md-2">
+					 <h4>Stay in Touch</h4>
+					 <ul>
+						 <li><a href='about.html'>About</a></li>
+						 <li><a href='contact.html'>Contact Us</a></li>
+						 <li><a href='/blog'>Blog</a></li>
+						 <li><a href='http://twitter.com/codeschool'>Twitter</a></li>
+						 <li><a href='http://facebook.com/codeschool'>Facebook</a></li>
+						</ul>
+					</div>
+					<div class="col-md-2 col-md-offset-1">
+					 <h4>Contact Us</h4>
+					 <ul>
+						 <li>Orlando, FL</li>
+						 <li>1-555-blast-off</li>
+						 <li><a href='mailto:blastingoff@codeschool.com'>blastingoff@codeschool.com</a></li>
+					 </ul>
+					 <p>Blasting Off With Bootstrap &copy;2214.</p>
+					</div>
+				</div> <!-- /row -->
+      </div> <!-- /container -->
+    </div> <!-- /footer -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 	</body>
