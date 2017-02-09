@@ -2,21 +2,6 @@
   font-size: 32px;
 }
 
-html {
-  position: relative;
-  zoom: 60%;
-  -ms-zoom: 60%;
-  -moz-transform: scale(0.6);
-  -moz-transform-origin: center top 0px;
-  -o-transform: scale(60%);
-  -o-transform-origin: center top 0px;
-  -webkit-transform: scale(60%);
-  -webkit-transform-origin: center top 0px;
-
-
-  /*-moz-transform:  scale(0.6,0.6);*/
-  /*-moz-transform-origin: left center;*/
-}
 body {
   /*margin-left: -25%;*/
 }
